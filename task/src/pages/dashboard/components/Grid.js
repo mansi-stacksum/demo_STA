@@ -167,7 +167,7 @@ const Section1 = () => {
                     style={{
                       position: "absolute",
                       marginTop: "2px",
-                      marginleft: "-4px",
+                      // marginleft: "-4px",
                     }}
                     type="checkbox"
                     className="form-check-input"
