@@ -99,7 +99,7 @@ const Section1 = () => {
   });
 
   return (
-    <Row>
+    <Row style={{color:"#7a7d7f !important"}}>
       <Col sm="12">
         <TableHeader title="Order History">
           <Row>
@@ -141,7 +141,7 @@ const Section1 = () => {
             </Col>
             <Col md={1} xs={12} style={{ padding: "10px" }}>
               <ButtonGroup className="me-2" aria-label="First group" >
-                <Button style={{backgroundColor: "#5ea3cb",fontSize:"0.85rem", width:"100%", display:"inline-flex"}}>
+                <Button style={{backgroundColor: "#5ea3cb",fontSize:"0.85rem", width:"100%", display:"inline-flex",border:"none",alignItems:"center",height:"3em"}}>
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-sliders" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M11.5 2a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM9.05 3a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0V3h9.05zM4.5 7a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zM2.05 8a2.5 2.5 0 0 1 4.9 0H16v1H6.95a2.5 2.5 0 0 1-4.9 0H0V8h2.05zm9.45 4a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm-2.45 1a2.5 2.5 0 0 1 4.9 0H16v1h-2.05a2.5 2.5 0 0 1-4.9 0H0v-1h9.05z"/>
 </svg>
@@ -167,6 +167,7 @@ const Section1 = () => {
                     style={{
                       position: "absolute",
                       marginTop: "2px",
+                      marginLeft:"1em"
                       // marginleft: "-4px",
                     }}
                     type="checkbox"
@@ -241,7 +242,7 @@ const Section1 = () => {
                         data-placement="top"
                         title=""
                         data-original-title="Edit"
-                        style={{ marginLeft: "10px" }}
+                        // style={{ marginLeft: "10px" }}
                       >
                         <span className="btn-inner">
                           {/* <EditIcon /> */}
@@ -256,7 +257,7 @@ const Section1 = () => {
                         data-toggle="tooltip"
                         data-placement="top"
                         data-original-title="Delete"
-                        style={{ marginLeft: "10px" }}
+                        // style={{ marginLeft: "10px" }}
                       >
                         <span className="btn-inner">
                           {/* <DeleteIcon /> */}
